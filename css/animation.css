@@ -1,0 +1,215 @@
+body {
+    background-color: aquamarine;
+}
+p {
+    font-size: 44px;
+    color: black;
+    text-align: center;
+}
+marquee {
+    font-size: 50px;
+    color: burlywood;
+}
+div {
+    width: 500px;
+    height: 200px;
+    background-color: red;
+}
+.d1 {
+    animation-name: ex1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    text-align: center;
+}
+@keyframes ex1 {
+    from{background-color: red;}
+    to{background-color: yellowgreen;}
+}
+.d2 {
+    animation-name: ex2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    text-align: center;
+}
+@keyframes ex2 {
+    0%{background-color: rebeccapurple;}
+    25%{background-color: aqua;}
+    50%{background-color: blanchedalmond;}
+    75%{background-color: black;}
+    100%{background-color: chocolate;}
+}
+.d3 {
+    animation-name: ex3;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    text-align: center;
+}
+@keyframes ex3 {
+    0%{background-color: rebeccapurple; left: 0px; top: 0px;}
+    25%{background-color: aqua; left: 200px; top: 0px;}
+    50%{background-color: blanchedalmond; left: 200px; top: 200px;}
+    75%{background-color: black; left: 0px; top: 200px;}
+    100%{background-color: chocolate; left: 0px; top: 0px;}
+}
+.d4 {
+    animation-name: ex4;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: -2s;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    text-align: center;
+}
+@keyframes ex4 {
+    0%{background-color: rebeccapurple; left: 0px; top: 0px;}
+    25%{background-color: aqua; left: 200px; top: 0px;}
+    50%{background-color: blanchedalmond; left: 200px; top: 200px;}
+    75%{background-color: black; left: 0px; top: 200px;}
+    100%{background-color: chocolate; left: 0px; top: 0px;}
+}
+.d5 {
+    animation-name: ex5;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: -2s;
+    animation-iteration-count: 2;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    text-align: center;
+}
+@keyframes ex5 {
+    0%{background-color: rebeccapurple; left: 0px; top: 0px;}
+    25%{background-color: aqua; left: 200px; top: 0px;}
+    50%{background-color: blanchedalmond; left: 200px; top: 200px;}
+    75%{background-color: black; left: 0px; top: 200px;}
+    100%{background-color: chocolate; left: 0px; top: 0px;}
+}
+.d6 {
+    animation-name: ex6;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: -2s;
+    animation-iteration-count: 2;
+    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    text-align: center;
+}
+@keyframes ex6 {
+    0%{background-color: rebeccapurple; left: 0px; top: 0px;}
+    25%{background-color: aqua; left: 200px; top: 0px;}
+    50%{background-color: blanchedalmond; left: 200px; top: 200px;}
+    75%{background-color: black; left: 0px; top: 200px;}
+    100%{background-color: chocolate; left: 0px; top: 0px;}
+}
+.d7 {
+    animation-name: ex7;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: -2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    text-align: center;
+
+}
+@keyframes ex7 {
+    0%{background-color: rebeccapurple; left: 0px; top: 0px;}
+    25%{background-color: aqua; left: 200px; top: 0px;}
+    50%{background-color: blanchedalmond; left: 200px; top: 200px;}
+    75%{background-color: black; left: 0px; top: 200px;}
+    100%{background-color: chocolate; left: 0px; top: 0px;}
+}
+.d8 {
+    animation-name: ex8;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    text-align: center;
+}
+@keyframes ex8 {
+    from{background-color: rebeccapurple; left: 0px; top: 0px;}
+    to{background-color: aqua; left: 200px; top: 0px;}
+}
+.d9 {
+    animation-name: ex9;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: -2s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    text-align: center;
+}
+@keyframes ex9 {
+    from{background-color: rebeccapurple; left: 0px; top: 0px;}
+    to{background-color: red; left: 200px; top: 0px;}
+}
+.d10 {
+    animation-name: ex10;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: -2s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    text-align: center;
+}
+@keyframes ex10 {
+    from{background-color: rebeccapurple; left: 0px; top: 0px;}
+    to{background-color: red; left: 200px; top: 0px;}
+}
+.d11 {
+    animation-name: ex11;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: -2s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+    font-size: 50px;
+    text-align: center;
+}
+@keyframes ex11 {
+    from{background-color: rebeccapurple; left: 0px; top: 0px;}
+    to{background-color: red; left: 200px; top: 0px;}
+}
+.d12 {
+    animation-name: ex12;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: -2s;
+    animation-timing-function: ease-in-out;
+    font-size: 50px;
+    text-align: center;
+    animation-iteration-count: infinite;
+}
+@keyframes ex12 {
+    from{background-color: rebeccapurple; left: 0px; top: 0px;}
+    to{background-color: red; left: 200px; top: 0px;}
+}
+.marquee {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.marquee p {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite;
+}
+@keyframes marquee {
+    from{transform: translateX(0);}
+    to{transform: translateX(-100%);}
+}
+div {
+    display: inline-block;
+}
